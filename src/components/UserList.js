@@ -19,7 +19,7 @@ return (
     <h1 className='head'>USER LIST</h1>
     <ul>
     {listOfUsers.map(user => (
-        <li key={user.id}>{user.name}</li>
+        <li key={user.id}>{user.name} {user.phone}</li>
     ))}
     </ul>
 </div>
